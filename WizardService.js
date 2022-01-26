@@ -30,7 +30,7 @@ module.exports = class WizardService {
         // send mail with defined transport object
         let info = await transporter.sendMail({
             from: 'no-reply@totalflow.com.ua', // sender address
-            to: "Stronciy@gmail.com", // list of receivers
+            to: "k.sherif@totalflow.com.ua", // list of receivers
             subject: "GetWell опросник", // Subject line
             text: "Результат заполнения опросника.\n", // plain text body
             //html: "<b>Hello world?</b>", // html body
